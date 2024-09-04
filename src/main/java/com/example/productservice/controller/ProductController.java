@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class ProductController {
     @GetMapping("/product")
    public String getProduct(@RequestParam String productId) {
-        return "Product : " + productId;
+        return "Product : " + productId ;
     }
 }
